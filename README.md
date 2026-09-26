@@ -13,7 +13,7 @@ By building it, you learn:
 - **Injection techniques** — how to insert new code into an existing ELF binary and redirect
   its entry point so the injected stub runs before the original program.
 
-The goal is to create a simple virus that infects a binary file, encrypts it, and produces a
+The goal is to create a simple program that infects a binary file, encrypts it, and produces a
 self-decrypting version.
 
 ## Usage
