@@ -35,3 +35,6 @@ self-decrypting version.
 This project hasn't been updated in a long time and is kept here for learning and reference.
 The foundations it taught — packing, obfuscation, and injection — went on to help me build the
 educational malware project [Death](https://github.com/diroyer/Death).
+
+I also reused this project's codebase in [Elf-virus](https://github.com/diroyer/Elf-virus) to
+explore additional infection techniques, as I needed more room to experiment.
