@@ -38,3 +38,14 @@ educational malware project [Death](https://github.com/diroyer/Death).
 
 I also reused this project's codebase in [Elf-virus](https://github.com/diroyer/Elf-virus) to
 explore additional infection techniques, as I needed more room to experiment.
+
+## Usefull commands
+```bash
+nasm -f elf64 -o print.o print.s
+ld -o print print.o
+./print
+objdump -d print
+nasm -f bin -o payload print.s
+xxd -i -c 8 < payload
+hexdump -v -e '"\\\x\" 1/1 "%02x"' payload
+```
